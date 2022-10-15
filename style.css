@@ -43,6 +43,7 @@ body {
 .link{
     text-decoration: none;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .link-primary{
