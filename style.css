@@ -12,14 +12,11 @@ h1{
     margin-bottom: 3rem;
     color: var(--primary-color)
 }
-hr{
-    margin: 2rem 1rem;
-}
 
 p{
     text-align: center;
     padding: 1rem 6rem;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 body {
@@ -27,17 +24,6 @@ body {
     margin: 0px;
     height: 100vh;
     overflow-x: hidden;
-}
-
-.container{
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.container-center{
-    max-width: 600px;
-    margin: auto;
-    padding: 1rem;
 }
 
 .link{
@@ -58,28 +44,6 @@ body {
     border: var(--primary-color) solid 1px;
 }
 
-.link-blog{
-    width: 125px;
-}
-.flex{
-    display: flex;
-    
-}
-
-.jc-center{
-    justify-content: center;
-}
-
-.margin-right{
-    margin-right: 20px;
-    width: 130px;
-
-}
-
-.margin-left{
-    margin-left: 0px;
-    width: 135px;
-}
 
 .list-non-bullet{
     list-style: none;
@@ -117,25 +81,6 @@ body {
 
 .navigation .nav{
     text-align: right;
-}
-
-.header{
-    padding: 2rem;
-}
-
-.header .header-img{
-    max-width: 350px;
-    display: block;
-    margin: auto;
-}
-
-.header .header-heading{
-    text-align: center;
-    color: var(--dark-gray);
-}
-
-.header .header-heading .text-inverted{
-    color: var(--primary-color)
 }
 
 .section{
