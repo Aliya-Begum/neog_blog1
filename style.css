@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito&display=swap');
+
+:root{
+
+    --primary-color : #581c87;
+    --dark-gray :#6b7280;
+    --off-white : #f3f4f6
+}
+h1{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: var(--primary-color)
+}
+hr{
+    margin: 2rem 1rem;
+}
+
+p{
+    text-align: center;
+    padding: 1rem 6rem;
+    font-size: 20px;
+    
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.link{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.link-primary{
+    background-color: var(--primary-color) ;
+    display: block;
+    width: 137px;
+    border-radius: 2rem;
+    font-size: 19px;
+    color: white;
+    margin: auto;
+    padding :0.7rem 0.7rem;
+    border: var(--primary-color) solid 1px;
+}
+
+.link-blog{
+    width: 125px;
+}
+.flex{
+    display: flex;
+    
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+.margin-right{
+    margin-right: 20px;
+    width: 130px;
+
+}
+
+.margin-left{
+    margin-left: 0px;
+    width: 135px;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-bottom-left-radius: 1rem;
+    color: white;
+}
+
+.navigation .nav-brand{
+    padding: 1rem;
+   font-weight: bolder;
+   font-size: larger;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.navigation ul{
+    padding: 0.5rem;
+}
+
+.navigation .nav{
+    text-align: right;
+}
+
+.header{
+    padding: 2rem;
+}
+
+.header .header-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.header .header-heading{
+    text-align: center;
+    color: var(--dark-gray);
+}
+
+.header .header-heading .text-inverted{
+    color: var(--primary-color)
+}
+
+.section{
+    padding: 2rem 0.5rem;
+}
+
+.section h2{
+    text-align: center;
+}
+
+ .section-ow{
+    background-color: var(--off-white);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0;
+}
+
+.footer{
+   background-color: var(--primary-color);
+   padding: 0.5rem 1rem;
+   color: white;
+   border-top-right-radius: rem;
+   text-align: center;  
+   position: relative;
+   bottom: 0%;
+   width: 100%;
+   margin-top: 2rem;
+   border-top-left-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+    padding: 1rem 1rem;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.date{
+    display: block;
+    text-align: center;
+}
